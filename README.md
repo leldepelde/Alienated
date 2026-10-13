@@ -21,7 +21,7 @@ Needs Python 3.9+ and a terminal at least 80x24.
 | 1-9 | Pick a dialogue choice directly |
 | ESC | Quit |
 
-# Recommended order of in-game interactions for the best experience:
+**Recommended order of in-game interactions for the best experience:**
 1) V
 2) R
 3) E
