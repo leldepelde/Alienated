@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "C:\Users\laura\Desktop\a2\mars-game\main.py", line 24, in main
+    game.run()
+    ~~~~~~~~^^
+  File "C:\Users\laura\Desktop\a2\mars-game\game\engine.py", line 49, in run
+    self.scenes[-1].handle_key(normalize(key))
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\laura\Desktop\a2\mars-game\game\scenes\dialogue.py", line 83, in handle_key
+    self.advance()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\laura\Desktop\a2\mars-game\game\scenes\dialogue.py", line 57, in advance
+    self.enter_node(picked["goto"])
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\laura\Desktop\a2\mars-game\game\scenes\dialogue.py", line 29, in enter_node
+    self.node = self.script[node_id]
+                ~~~~~~~~~~~^^^^^^^^^
+KeyError: 'madalin'
